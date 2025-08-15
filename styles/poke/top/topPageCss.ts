@@ -27,6 +27,8 @@ export const styles = StyleSheet.create({
     },
     ballImage: {
         marginBottom: 40,
+        width: 200,
+        height: 200,
     },
     button: {
         backgroundColor: 'blue',

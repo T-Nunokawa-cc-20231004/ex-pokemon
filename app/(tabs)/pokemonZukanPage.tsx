@@ -74,13 +74,9 @@ export default function PokemonZukanPage() {
 
                     {pokemon && (
                         <View style={styles.informationArea}>
-                            {/* <TouchableOpacity
-                                activeOpacity={0.8}
-                                onPress={() => shake()} // 画像をタッチでシェイク
-                            > */}
                             <TouchableOpacity
                                 activeOpacity={0.8}
-                                onPress={triggerAnimation} // 画像をタッチでシェイク
+                                onPress={triggerAnimation}
                             >
                                 <Animated.Image
                                     source={{

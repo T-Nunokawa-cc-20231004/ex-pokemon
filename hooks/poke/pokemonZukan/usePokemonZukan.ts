@@ -120,8 +120,8 @@ export const useShakeAnimation = (triggerKey?: any) => {
                 useNativeDriver: true,
             }),
             Animated.timing(translateX, {
-                toValue: 25, // 揺れ幅
-                duration: 100, // スピード
+                toValue: 25,
+                duration: 100,
                 useNativeDriver: true,
             }),
             Animated.timing(translateX, {
@@ -140,11 +140,6 @@ export const useShakeAnimation = (triggerKey?: any) => {
     // 2.縦揺れアニメーション
     const runVerticalShake = () => {
         Animated.sequence([
-            // Animated.timing(translateY, {
-            //     toValue: 20,
-            //     duration: 250,
-            //     useNativeDriver: true,
-            // }),
             Animated.timing(translateY, {
                 toValue: -40,
                 duration: 200,
